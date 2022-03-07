@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hacer pedido</h1>
+    <form action="pedido.js">
+        <h2>Datos generales</h2>
+
+        <label for="name">Dame tu nombre</label><br>
+        <input type="text" id="name1" name="name1" placeholder="Nombre">
+
+        <br><br>
+
+        <label for="numero">Dame tu número telefonico</label> <br>
+        <input type="number" id="numero" name="numero" placeholder="833-xxx-xx-xx">
+        
+        <br><br>
+
+        <label for="correo">Dame tu correo electronico</label><br>
+        <input type="email" name="correo" id="correo" placeholder="isai@example.com">
+
+        <br><br>
+
+        <label for="descripcion">Descripcion general del pastel</label> <br>
+        <input type="text" name="descripcion" id="descripcion" >
+
+        <br><br>
+        <h3>Selecciona un sabor o varios</h3>
+        <input type="checkbox" id="sabor1" name="sabor1" value="chocolate">
+        <label for="chocolate">Chocolate</label>
+        <input type="checkbox" id="sabor2" name="sabor2" value="mango">
+        <label for="chocolate">Mango</label>
+        <input type="checkbox" id="sabor3" name="sabor3" value="leche">
+        <label for="chocolate">3 leches</label>
+        <input type="checkbox" id="sabor4" name="sabor4" value="Vainilla">
+        <label for="chocolate">Vainilla</label>
+        <input type="checkbox" id="sabor5" name="sabor5" value="Zanahoria">
+        <label for="chocolate">Zanahoria</label>
+        <input type="checkbox" id="sabor6" name="sabor6" value="Fresa">
+        <label for="chocolate">Fresa</label>
+
+        <h3>Selecciona un adorno o varios</h3>
+        <input type="checkbox" id="adorno1" name="adorno1" value="letrero">
+        <label for="adorno1">Letrero comestible</label>
+        <input type="checkbox" id="adornor2" name="adorno2" value="numeroc">
+        <label for="adorno2">Numero comestible</label>
+        <input type="checkbox" id="adorno3" name="adorno3" value="fruta">
+        <label for="adorno3">Fruta en almibar</label>
+        <input type="checkbox" id="adorno4" name="adorno4" value="fondan">
+        <label for="adorno4">Diseño en fondan</label>
+        <input type="checkbox" id="adorno5" name="adorno5" value="chantilly">
+        <label for="adorno5">Crema chantilly</label>
+
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+
+
+    </form>
+
+    <a href="./main.html">
+        <input type="button" name="regresar" value="regresar">
+    </a>
+</body>
+</html>
